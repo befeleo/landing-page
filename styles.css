@@ -75,3 +75,21 @@ nav ul li a {
 .p-subtext {
   text-align: center;
 }
+.quote {
+  background-color: #e5e7eb;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.quotetext {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+.quoteby {
+  text-align: right;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 20px;
+}
