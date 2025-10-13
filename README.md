@@ -4,7 +4,7 @@
 This is a landing page project was built as part of [The Odin Project](https://www.theodinproject.com/) Project: [Landing Page](https://www.theodinproject.com/lessons/foundations-landing-page).
 The page is themed around the **four classical elements**: Fire, Water, Air, and Earth.
 ## Image Sources
-- **Elements Overview**: [Link](https://pin.it/6OAydwV9U)  
+- **Elements**: [Link](https://pin.it/6OAydwV9U)  
 - **Fire**: [Link](https://pin.it/4Yy0T8s5i)  
 - **Air**: [Link](https://pin.it/6wrTWSRDd)  
 - **Earth**: [Link](https://pin.it/1Eigb1ZqB)  
