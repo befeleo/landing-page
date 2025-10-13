@@ -37,7 +37,8 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 15%;
+  padding: 60px 15% 70px;
+  gap: 60px;
 }
 .header-content,
 .header-image {
@@ -54,23 +55,34 @@ nav ul li a {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  line-height: 1.5em;
+}
+span {
+  font-family: cursive;
+  color: red;
 }
 .header-sign-up {
   background-color: #3882f6;
+  font-weight: bold;
   border: none;
-  padding: 9px 25px;
+  padding: 9px 30px;
   border-radius: 10px;
-  margin-top: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  color: #f9faf8;
 }
 .header-text {
   color: #e5e7eb;
+}
+.info {
+  margin-bottom: 100px;
 }
 .p-info {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
   text-align: center;
-  margin: 20px;
+  margin: 25px;
 }
 .container {
   display: flex;
@@ -104,10 +116,9 @@ img {
 
 .quote {
   background-color: #e5e7eb;
-  padding: 200px;
+  padding: 100px 20%;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 .quotetext {
   font-size: 36px;
@@ -138,11 +149,12 @@ img {
 .action-sign-up {
   background-color: #3882f6;
   border: 3px solid #fff;
-  padding: 9px 25px;
+  padding: 9px 30px;
   border-radius: 10px;
   margin-top: 5px;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
 }
 footer {
   text-align: center;
