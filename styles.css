@@ -39,6 +39,16 @@ nav ul li a {
   align-items: center;
   padding: 60px 15%;
 }
+.header-content,
+.header-image {
+  width: 50%;
+}
+
+.header-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .header-title {
   font-size: 48px;
@@ -65,17 +75,33 @@ nav ul li a {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 60px;
+  padding: 0 20%;
 }
-.image {
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.cards-image {
   width: 200px;
   height: 200px;
-  border: 2px solid #3882f6;
+  border: 3px solid #3882f6;
   border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .p-subtext {
   text-align: center;
 }
+
 .quote {
   background-color: #e5e7eb;
   padding: 200px;
