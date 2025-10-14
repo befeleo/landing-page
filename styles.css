@@ -137,6 +137,7 @@ img {
   display: flex;
   justify-content: space-between;
   color: #fff;
+  border-radius: 10px;
 }
 .action-header {
   color: #fff;
